@@ -65,6 +65,6 @@ app.post("/cli", (req, res) => {
   }
 });
 
-app.listen(80, () => {
+app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}`);
 });
